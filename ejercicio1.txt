@@ -73,3 +73,7 @@ Para esto utilizamos el comando "git log"
 - Finalmente, validar el estado del repositorio:
 
 Volvemos a aplicar el comando git status para esto.
+
+--- Enlace al repositorio en linea (GitHub) ---
+
+https://github.com/Richarx2x/EJERCICIO_INDIVIDUAL07_MOD02.git
