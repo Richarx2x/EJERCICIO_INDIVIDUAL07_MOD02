@@ -1,0 +1,75 @@
+Nombre Estudiante: Ricardo Cea
+Curso: Desarrollo de Aplicaciones Full Stack Java Trainee
+
+--- INFO DE TRABAJO ---
+
+Instrucciones:
+
+- Sitúese en la carpeta en la que desee crear el repositorio:
+
+Al hacer esto, mediante la terminal de Git Bash, nos ubicamos en 
+donde queremos crear nuestro proyecto. Usaremos los comandos
+cd "nombrecarpeta" y cd .. para avanzar y retroceder por el directorio.
+
+- Cree una carpeta, y dentro de la misma un repositorio, ambos con el nombre
+fullstackjava:
+
+En la carpeta donde guardamos nuestros repositorios, utilizaremos el comando 
+mkdir "nombrenuevacarpeta" para crear la carpeta de nuestro nuevo proyecto.
+Luego aplicamos dentro de nuestra carpeta de proyecto, el comando "git init"
+para inicializar Git.
+
+- Genere una consulta que permite verificar el estado del repositorio:
+
+Usamos el comando "git status" para esto.
+
+- Cree un documento de texto de nombre contenidos.txt, que posea el siguiente
+contenido:
+Módulo 1: Programación en Python
+Módulo 2: Lenguaje de Consultas a una Base de Datos
+Módulo 3: Fundamentos de Desarrollo Web
+
+Para esto utilizamos el comando touch "contenidos.txt", para crear este
+nuevo documento
+
+- Validar que el contenido ingresado esté efectivamente cargado. Verifique
+además el tamaño del archivo y sus permisos de acceso:
+
+Para esto utilizamos el comando ls -l "contenidos.txt". Esto nos desplegará
+la información de los permisos de acceso correspondientes a al propietario,
+grupos y demás usuarios, además de la información del tamaño del archivo
+y su fecha de modificación.
+
+- Añada el archivo al repositorio:
+
+Para esto usamos el comando "git add ." (para agregar todos los archivos de la 
+carpeta del proyecto). Esto eviará al "stage" los archivos que se encuentren
+en nuestra carpeta "fullstackjava"
+
+- Aplique los cambios realizados sobre el repositorio, usando como mensaje
+“Primera versión del temario subida a repositorio”:
+
+Para esto usamos el comando "git commit -m 'mensaje'" para guardar los cambios.
+
+- Añada una nueva línea al final del archivo, con el contenido “Módulo 2:
+Desarrollo de aplicaciones web dinámicas con Python”:
+
+Para esto, basta con abrir el archivo contenidos.txt y modificarlo
+
+- Verificar qué cambios existen en el repositorio que deban ser almacenados:
+
+Para esto, realizamos un nuevo "git status".
+
+- Aplicar nuevamente los cambios en el repositorio, esta vez con el mensaje
+“Versión actualizada del contenido”:
+
+Volvemos a ejecutar el comando "git add ." y posteriormente 
+"git commit -m 'mensaje'", para confirmar los nuevos cambios.
+
+- Ver el registro de cambios creados sobre el repositorio:
+
+Para esto utilizamos el comando "git log"
+
+- Finalmente, validar el estado del repositorio:
+
+Volvemos a aplicar el comando git status para esto.
